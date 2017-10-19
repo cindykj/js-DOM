@@ -94,6 +94,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
+var divAlias8 = document.createElement("div");
+divAlias8.id = "alias8";
+divAlias8.innerHTML = "Old Man Riverwalk";
+document.getElementById("aliasParent").appendChild(divAlias8);
 
 
 //Final Boss
